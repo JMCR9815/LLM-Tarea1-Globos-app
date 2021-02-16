@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icono {
+    position: fixed;
+
+    font-size: 30px;
+    animation: caida 3s linear forwards;
+}
+
+.boton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.boton button {
+    margin: 48vh;
+}
+
+.display {
+    visibility: hidden;
+}
+
+@keyframes caida {
+    to {
+        transform: translateY(-1vh);
+    }
+
+    from {
+        transform: translateY(100vh);
+    }
+}
