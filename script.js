@@ -24,7 +24,7 @@ function globos(){
 
 		document.body.appendChild(icono);
 
-		setTimeout(eliminarIcono,3000,icono);
+		setTimeout(eliminarIcono,3800,icono);
 					
 	}
 
