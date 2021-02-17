@@ -27,10 +27,10 @@
 
 @keyframes caida {
     to {
-        transform: translateY(-1vh);
+        transform: translateY(-10vh);
     }
 
     from {
-        transform: translateY(100vh);
+        transform: translateY(110vh);
     }
 }
